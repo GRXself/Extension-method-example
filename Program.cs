@@ -1,4 +1,5 @@
 ﻿using System;
+using dotnet_extension_method.Examples;
 
 namespace dotnet_extension_method
 {
@@ -6,7 +7,21 @@ namespace dotnet_extension_method
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var basicExample = new BasicExtensionMethodExample();
+
+            string result = string.Empty;
+
+            // result = basicExample.BasicExtensionMethodUsageCase();
+
+            // result = basicExample.LinqExample();
+
+            // result = basicExample.StaticCase().
+
+            // result = basicExample.SameNameCase();
+
+
+
+            Console.WriteLine(result);
         }
     }
 }
