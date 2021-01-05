@@ -11,7 +11,7 @@ namespace dotnet_extension_method.Examples
 
         public string BasicExtensionMethodUsageCase() => someBasicType.MethodB();
 
-        // public string StaticCase() => SomeBasicType.MethodB();
+        // public string StaticCase() => ExtensionForSomeBasicType.MethodB(so);
 
         public string LinqExample()
         {
